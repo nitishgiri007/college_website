@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hostel gallary</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-	              ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+        body {
+            background-color: #242A52;
+            /* width: 80%; */
+            overflow-x: hidden;
+            /* height: 114vh; */
+        }
+        
+        h1 {
+            color: #fff;
+        }
+        
+        .jlr {
+            font-size: 0;
+            position: relative;
+            left: 5px;
+            top: -7rem;
+        }
+        
+        .jlr .jlr_item {
+            font-size: 1rem;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 6px;
+        }
+        
+        .jlr img.jlr_img {
+            height: 200px;
+            opacity: 0;
+        }
+        
+        .jlr img.jlr_loaded {
+            -webkit-transition: opacity 1s ease-in;
+            -moz-transition: opacity 1s ease-in;
+            -o-transition: opacity 1s ease-in;
+            -ms-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+            opacity: 1;
+        }
+        /*         
+        .jlr1 {
+            font-size: 0;
+            position: relative;
+            left: 5px;
+            top: -3rem;
+        }
+        
+        .jlr1 .jlr_item {
+            font-size: 1rem;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 6px;
+        }
+        
+        .jlr1 img.jlr_img {
+            height: 200px;
+            opacity: 0;
+        }
+        
+        .jlr1 img.jlr_loaded {
+            -webkit-transition: opacity 1s ease-in;
+            -moz-transition: opacity 1s ease-in;
+            -o-transition: opacity 1s ease-in;
+            -ms-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+            opacity: 1;
+        } */
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="coll">
+            <img src="img/logo/nk.png" alt="logo">
+        </div>
+        <nav>
+            <!-- <div class="logo">
+            CodingNepal</div> -->
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+                <li>
+                    <label for="btn-1" class="show">About Us +</label>
+                    <a href="#"><i i class="fa fa-edit"></i>About Us</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="#">about gpkhutri</a></li>
+                        <li><a href="#">Mission & vision</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Faculty</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-2" class="show">Addmission +</label>
+                    <a href="#"><i class="fa fa-edit"></i>Addmission</a>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                        <li><a href="#">Fee Structure</a></li>
+                        <li><a href="#">Procedure</a></li>
+                        <li><a href="#">Admission Figure</a></li>
+                        <li><a href="#">scholership</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-3" class="show">facilities +</label>
+                    <a href="#"><i class="fa fa-edit"></i>facilities</a>
+                    <input type="checkbox" id="btn-3">
+                    <ul>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">hostel & mess</a></li>
+                        <li><a href="#">Labs</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-4" class="show">Department +</label>
+                    <a href="#"><i class="fa fa-edit"></i>Department</a>
+                    <input type="checkbox" id="btn-4">
+                    <ul>
+                        <li><a href="#">computer Engineering</a></li>
+                        <li><a href="#">Automobile Engineering</a></li>
+                        <li><a href="#">Mechnical Engineering</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-5" class="show">Gallary +</label>
+                    <a href="#"><i class="fa fa-picture-o"></i>Gallary</a>
+                    <input type="checkbox" id="btn-5">
+                    <ul>
+                        <li><a href="#">collage</a></li>
+                        <li><a href="#">Hostel</a></li>
+                        <li><a href="#">teacher</a></li>
+                        <li><a href="#">lab</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-edit"></i>notice</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i>contat</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i>J U T</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i>login</a></li>
+            </ul>
+        </nav>
+        <div class="page-wrapper">
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <h1 id="heading">collage gallary</h1>
+        <div id="jLightroom" class="jlr">
+            <a href="img/1.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/1.jpg" class="jlr_img" /></a>
+            <a href="img/2.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/2.jpg" class="jlr_img" /></a>
+            <a href="img/3.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/3.jpg" class="jlr_img" /></a>
+            <a href="img/4.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/4.jpg" class="jlr_img" /></a>
+            <a href="img/5.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/5.jpg" class="jlr_img" /></a>
+            <a href="img/6.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/6.jpg" class="jlr_img" /></a>
+            <a href="img/7.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/7.jpg" class="jlr_img" /></a>
+            <a href="img/8.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/8.jpg" class="jlr_img" /></a>
+            <a href="img/9.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/9.jpg" class="jlr_img" /></a>
+            <a href="img/10.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/10.jpg" class="jlr_img" /></a>
+
+        </div>
+        <!-- <div id="jLightrooms" class="jlr1">
+            <h1 id="heading1">girls hstl</h1>
+            <a href="img/11.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/11.jpg" class="jlr_img" /></a>
+            <a href="img/12.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/12.jpg" class="jlr_img" /></a>
+            <a href="img/13.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/13.jpg" class="jlr_img" /></a>
+            <a href="img/14.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/14.jpg" class="jlr_img" /></a>
+            <a href="img/15.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/15.jpg" class="jlr_img" /></a>
+            <a href="img/16.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/16.jpg" class="jlr_img" /></a>
+            <a href="img/17.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/17.jpg" class="jlr_img" /></a>
+            <a href="img/18.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/18.jpg" class="jlr_img" /></a>
+            <a href="img/19.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/19.jpg" class="jlr_img" /></a>
+            <a href="img/20.jpg" data-lightbox="lb1" class="jlr_item"><img src="img/20.jpg" class="jlr_img" /></a>
+        </div> -->
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>G.P.</span> KHUTRI</h1>
+                <p>This is the best collage in jharkhand. all the student are deserving to be here
+                </p>
+                <div class="foot-contact">
+                    <span><i class="fa fa-phone"></i>7488-059189</span>
+                    <span><i class="fa fa-envelope"></i>nb88640@gmail.com</span>
+                    <div class="social">
+                        <a href="" class="fa fa-facebook"></a>
+                        <a href="" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-section link">
+                <h2>QUICK LINKS</h2>
+                <br>
+                <ul>
+                    <a href="">
+                        <li>balidih</li>
+                    </a>
+                    <a href="">
+                        <li>jut</li>
+                    </a>
+                    <a href="">
+                        <li>jceceb</li>
+                    </a>
+                    <a href="">
+                        <li>gamariyah</li>
+                    </a>
+                </ul>
+
+            </div>
+            <div class="footer-section contact">
+                <img src="image/logo/nk.png" alt="">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; gpkhutri.in|designed by nitish
+        </div>
+    </div>
+    <!-- footer -->
+
+    <!-- </div> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.lightroom.js"></script>
+
+    <script type="text/javascript">
+        $("#jLightroom").lightroom({
+            image_container_selector: ".jlr_item",
+            img_selector: "img.jlr_img",
+            img_class_loaded: "jlr_loaded",
+            img_space: 5,
+            img_mode: 'min',
+            init_callback: function(elem) {
+                $(elem).removeClass("gray_out")
+            }
+        }).init();
+        // $("#jLightrooms").lightroom({
+        //     image_container_selector: ".jlr_item",
+        //     img_selector: "img.jlr_img",
+        //     img_class_loaded: "jlr_loaded",
+        //     img_space: 5,
+        //     img_mode: 'min',
+        //     init_callback: function(elem) {
+        //         $(elem).removeClass("gray_out")
+        //     }
+        // }).init();
+    </script>
+</body>
+
+</html>
